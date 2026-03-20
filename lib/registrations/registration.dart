@@ -25,6 +25,7 @@ class Registration extends StatelessWidget{
                 fontWeight: FontWeight.bold
               ),
             ),
+            SizedBox(height: 15,),
             _field("NOME:", "Digite o nome:"),
             _field("ENDEREÇO:", "Digite o endereço:"),
             _field("EMAIL:", "Digite o email:"),
@@ -45,7 +46,6 @@ class Registration extends StatelessWidget{
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        SizedBox(height: 10,),
         Text(text,),
         SizedBox(height: 10),
         TextField(
