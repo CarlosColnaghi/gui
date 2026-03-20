@@ -81,7 +81,7 @@ class Registration extends StatelessWidget{
 
   void _dialog(BuildContext context, String content){
     var alertDialog = AlertDialog(
-      title: Text("Registration"),
+      title: Text("TELA DE CADASTRO"),
       content: Text(content),
     );
     showDialog(
